@@ -1,0 +1,387 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: "Sono", sans-serif;
+}
+
+nav {
+  text-transform: uppercase;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+nav a,
+nav i {
+  font-size: 24px;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #03d6f5;
+}
+
+.navbar-nav a {
+  color: #fff;
+}
+
+.navbar-nav a:hover {
+  color: #03d6f5;
+}
+
+.navbar-nav button {
+  background: #03d6f5;
+  color: #fff;
+  border-radius: 25px;
+  width: 100px;
+  height: 40px;
+}
+
+.hero-img {
+  position: relative;
+  background-image: url("../images/hero-small.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  z-index: 0;
+}
+
+.hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -10;
+}
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  height: 100%;
+  z-index: 5;
+  padding: 20px;
+}
+.hero-text h1 {
+  font-size: 36px;
+}
+.hero-text button {
+  font-size: 20px;
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  background-color: rgb(184, 89, 252);
+  background-image: linear-gradient(107deg, rgb(184, 89, 252) 0%, rgb(30, 41, 169) 100%);
+}
+.hero-text p {
+  padding: 20px;
+  font-size: 16px;
+  color: #03d6f5;
+}
+
+.explore {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.explore p {
+  padding: 5px;
+}
+
+.explore-btn {
+  transition: scale 0.3s;
+}
+
+.explore-btn:hover {
+  scale: 1.1;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 20px;
+}
+.social-icons i {
+  margin: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: scale 0.3s;
+}
+
+.social-icons i:hover {
+  scale: 1.5;
+}
+
+.ourcompany {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.ourcompany h2, .ourcompany p {
+  display: flex;
+  justify-content: center;
+  color: #ddd;
+  margin-top: 30px;
+}
+.ourcompany h2 {
+  font-weight: bold;
+}
+.ourcompany p {
+  font-size: 24px;
+}
+.ourcompany h3 {
+  display: flex;
+  justify-content: center;
+  color: #03d6f5;
+}
+.ourcompany button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50rem;
+  background: none;
+  color: white;
+  border-color: royalblue;
+}
+
+.talk:hover {
+  color: royalblue;
+  border-color: white;
+}
+
+.allfeatures:hover {
+  color: royalblue;
+  border-color: white;
+}
+
+.ourwork {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.ourwork i {
+  color: white;
+  font-size: 24px;
+}
+.ourwork p, .ourwork h3 {
+  color: white;
+}
+
+.design {
+  background-color: #1f1c3c;
+}
+
+.avatars {
+  background-color: #200a44;
+}
+
+.showroom {
+  background-color: #1b093a;
+}
+
+.events {
+  background-color: #160730;
+}
+
+.portfolio h2 {
+  color: white;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.ourteam h2 {
+  color: white;
+}
+.ourteam a {
+  margin: 0 15px;
+  padding: 2px;
+  font-size: 24px;
+}
+.ourteam .card {
+  transition: scale 0.3s;
+}
+
+.ourteam .card:hover {
+  scale: 0.9;
+}
+
+.ourclients h2 {
+  color: white;
+}
+.ourclients img {
+  width: 100px;
+  height: 100px;
+}
+.ourclients p {
+  color: white;
+}
+.ourclients .statistics {
+  display: flex;
+  justify-content: center;
+  background-color: #160730;
+  font-size: 22px;
+}
+.ourclients .statistics .underline {
+  background-color: #03d6f5;
+  width: 100%;
+  height: 2px;
+}
+
+.contact h2 {
+  color: white;
+}
+.contact .container {
+  width: 50vw;
+}
+.contact .message button {
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-image: linear-gradient(107deg, rgb(184, 89, 252) 0%, rgb(30, 41, 169) 100%);
+  transition: scale 0.3s;
+}
+
+.message button:hover {
+  scale: 1.09;
+}
+
+.subsribe p {
+  font-size: 26px;
+  color: white;
+}
+
+.footer p {
+  color: white;
+}
+
+@media (max-width: 1079px) {
+  .navbar-nav a {
+    font-size: 14px;
+  }
+  .hero-text h1 {
+    font-size: 30px;
+  }
+  .hero-text p {
+    font-size: 18px;
+  }
+  .hero-text button {
+    font-size: 20px;
+    width: 150px;
+  }
+}
+@media (max-width: 991px) {
+  .hero-img {
+    background-image: url(../images/hero-big.jpg);
+  }
+  .hero-text h1 {
+    font-size: 30px;
+  }
+  .hero-text p {
+    font-size: 18px;
+  }
+  .hero-text button {
+    font-size: 20px;
+    width: 150px;
+  }
+  .navbar-brand,
+i {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-text h1 {
+    font-size: 30px;
+  }
+  .hero-text p {
+    font-size: 18px;
+  }
+  .hero-text button {
+    font-size: 20px;
+    width: 150px;
+  }
+  nav i {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) and (max-width: 500px) {
+  .hero-text {
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+@media (max-width: 600px) and (max-width: 400px) {
+  .navbar-brand,
+i {
+    font-size: 12px;
+  }
+  .social-icons i {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .ourteam i {
+    font-size: 20px;
+  }
+  .explore-btn {
+    font-size: 10px;
+  }
+  .hero-text h1 {
+    margin-top: 30%;
+    align-items: center;
+    font-size: 16px;
+  }
+  .hero-text p {
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .hero-text button {
+    margin-top: 20px;
+    font-size: 14px;
+    width: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .ourwork .container p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 300px) {
+  .hero-text p {
+    font-size: 12px;
+  }
+  .hero-text button {
+    width: 150px;
+  }
+  .social-icons i {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */
